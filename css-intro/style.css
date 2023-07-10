@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#titulo-principal {
+  color: #7300e6;
+  /* nivel de especificad 1 */
+}
+
+.titulo {
+  color: green
+  /* nivel de especificad 2 */
+}
+
+body {
+  background-color: bisque;
+}
+
+/* h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+} */
+/* nivel de especificad 3 */
+
+
+h2 {
+  display: block; /* maximo de ancho de la vista */
+  display: inline; /* tamaño del contenido interno */
+  display: none; /* el elemento existe pero no se visualiza */
+  /* es diferente de usar visibility: hidden */
+}
+
+/* #movie-section, #brand-section, #band-section {
+  background-color: brown;
+} */
+
+/* .list-section {
+  background-color: brown;
+} */
+
+#movie-section {
+  background-color: lightblue;
+}
+
+#brand-section {
+  background-color: lightcoral;
+}
+
+#band-section {
+  background-color: lightgreen;
+}
+
+#movie-section ul {
+  /* dentro de esa seccion busca todos los li */
+  color: blue;
+}
+
+#brand-section li {
+  /* dentro de esa seccion busca todos los li */
+  color: red;
+}
+
+#band-section li {
+  /* dentro de esa seccion busca todos los li */
+  color: green;
+}
+
+.list-section {
+
+  background-image: url("https://images.hdqwalls.com/download/margot-robbie-as-barbie-in-barbie-movie-u6-1125x2436.jpg");
+  background-position: center;
+  background-size: cover;
+
+  /* border-style: solid;
+  border-width: 20px;
+  border-color: brown; */
+
+  border: solid 20px brown;
+  /* border-top:  solid 100px orange; */
+
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding: 15px; /* aplica a los 4 ejes */
+
+  /* ejemplo de como incluir el borde como parte del width */
+  /* box-sizing: border-box;
+  width: 400px; */
+
+}
+
+.list-section h3 {
+
+  padding: 10px;
+  text-align: center; /* magia para centrar texto */
+
+  color: purple;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 30px;
+
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 5px 2px 2px #1C6EA4;
+}
+
+
+
+
+
